@@ -8,17 +8,45 @@
 
         <!-- icon -->
         <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-
+        <!-- css bootstrap -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
         <title>Cleo Porto</title>
     </head>
     <body>
-        
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#"><b>C L E O </b></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Project</a>
+                        </li>
+                    
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hobbies">Hobbies</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+            </nav>
+        </header>
            <!-- home -->
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Cleo</span><br> Web Developer</h1>
-
-                    <a href="#about" class="button">Know More!</a>
+                    <button href="#about" type="button" class="btn btn-danger btn-lg">Know More!</button>
+                    <!-- <a href="#about" class="button">Know More!</a> -->
                 </div>
 
                 <div class="home__social">
@@ -114,7 +142,7 @@
             </section>
 
             <!-- projects -->
-            <section class="proj section">
+            <section class="proj section" id="projects">
                 <h2 class="section-title">Projects</h2>
 
                 <div class="proj__container bd-grid">
@@ -146,12 +174,96 @@
             </section>
 
 
+            <!-- projects -->
+            <section class="proj section" id="hobbies">
+                <h2 class="section-title">Hobbies</h2>
+
+                <div class="card mb-3 bd-grid" style="max-width: 540px;">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img src="img/prod.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                            <h5 class="card-title">Being Productive</h5>
+                            <p class="card-text">To be productive means to be effective at externally rewarding tasks. Effective: to be efficient. To get something done fast and well. Using spare time to do something positive (coding, reading, learning).</p>
+                            <p class="card-text"><small class="text-muted"></small></p>
+                            </div>
+                        </div>
+                    </div>
+                    <br/>
+                    <div class="row no-gutters">
+                      <div class="col-md-4">
+                        <img src="img/ping.jpg" class="card-img" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Ping-Pong</h5>
+                          <p class="card-text">players must allow a ball played toward them to bounce one time on their side of the table, and must return it so that it bounces on the opposite side at least once. </p>
+                          <p class="card-text"><small class="text-muted">Since 2012</small></p>
+                        </div>
+                      </div>
+                    </div>
+                    <br/>
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img src="img/weight.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Weight Lifting</h5>
+                            <p class="card-text"> Weight training provides a stress to the muscles that causes them to adapt and get stronger, similar to the way aerobic conditioning strengthens your heart.</p>
+                            <p class="card-text"><small class="text-muted">Since 2015</small></p>
+                          </div>
+                        </div>
+                      </div>
+                      <br/>
+                      <div class="row no-gutters">
+                        <div class="col-md-4">
+                          <img src="img/gear.jpg" class="card-img" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                          <div class="card-body">
+                            <h5 class="card-title">Gaming</h5>
+                            <p class="card-text">Video games are sports that take place in a computer.They're digital board games and card games. They're rough simulations of everyday life including, probably, whatever you do for a living.</p>
+                            <p class="card-text"><small class="text-muted">Since 2008</small></p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+            </section>
+
+
+
+
+
         <!--===== FOOTER =====-->
         <footer class="footer">
             <p class="footer__title">For business inquiries? <a href="https://wa.me/+6287880086722" target="_blank">Contact Me!</a>  </p>
+            <ul class="nav justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#hobbies">Hobbies</a>
+                </li>
+  
+            </ul>
+              <br/>
             <p>&#169; 2020 copyright all right reserved</p>
         </footer>
 
-
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
     </body>
 </html>
